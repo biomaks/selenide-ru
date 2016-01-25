@@ -203,22 +203,22 @@ $(By.xpath("//div[text()='Login']")).shouldBe(visible); // можно испол
 
 Assertions (проверки), которые вызывают поиск по DOM.
 
-*   <a href="{{BASE_PATH}}/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#shouldBe(com.codeborne.selenide.CollectionCondition)">shouldBe</a>     - e.g. `$$(".errors").shouldBe(empty)`
-*   <a href="{{BASE_PATH}}/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#shouldHave(com.codeborne.selenide.CollectionCondition)">shouldHave</a>     - e.g. `$$("#mytable tbody tr").shouldHave(size(2))`
+*   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#shouldBe(com.codeborne.selenide.CollectionCondition)">shouldBe</a>     - e.g. `$$(".errors").shouldBe(empty)`
+*   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#shouldHave(com.codeborne.selenide.CollectionCondition)">shouldHave</a>     - e.g. `$$("#mytable tbody tr").shouldHave(size(2))`
 
 
 Дополнительная фильтрация, не вызывает поиск по DOM и может быть безопасно сохранена в переменную.
 
 *   get(int) - возвращает n-ый элемент как `SelenideElement` и *не* вызывает поиск по DOM или граничную проверку коллекции
-*   <a href="{{BASE_PATH}}/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#find(com.codeborne.selenide.Condition)">find</a>     - e.g. `$$("#multirowTable tr").findBy(text("Norris"))`
-*   <a href="{{BASE_PATH}}/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#filter(com.codeborne.selenide.Condition)">filter</a>     - e.g. `$$("#multirowTable tr").filterBy(text("Norris"))`
-*   <a href="{{BASE_PATH}}/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#exclude(com.codeborne.selenide.Condition)">exclude</a>     - e.g. `$$("#multirowTable tr").excludeWith(text("Chuck"))`
+*   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#find(com.codeborne.selenide.Condition)">find</a>     - e.g. `$$("#multirowTable tr").findBy(text("Norris"))`
+*   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#filter(com.codeborne.selenide.Condition)">filter</a>     - e.g. `$$("#multirowTable tr").filterBy(text("Norris"))`
+*   <a href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/ElementsCollection.html#exclude(com.codeborne.selenide.Condition)">exclude</a>     - e.g. `$$("#multirowTable tr").excludeWith(text("Chuck"))`
 
 Более подробная информация доступна в Wiki (скоро).
 
 <h3>com.codeborne.selenide.WebDriverRunner
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/WebDriverRunner.java">[src]</a>
-  <a target="_blank" href="{{ BASE_PATH }}/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/WebDriverRunner.html">[javadoc]</a>
+  <a target="_blank" href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/WebDriverRunner.html">[javadoc]</a>
 </h3>
 
 Этот класс содержит некоторые функции относящиеся к браузеру :
@@ -235,7 +235,7 @@ Assertions (проверки), которые вызывают поиск по D
 
 <h3>com.codeborne.selenide.Configuration
   <a target="_blank" href="https://github.com/codeborne/selenide/blob/master/src/main/java/com/codeborne/selenide/Configuration.java">[src]</a>
-  <a target="_blank" href="{{ BASE_PATH }}/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Configuration.html">[javadoc]</a>
+  <a target="_blank" href="http://selenide.org/javadoc/{{site.SELENIDE_VERSION}}/com/codeborne/selenide/Configuration.html">[javadoc]</a>
 </h3>
 
 Этот класс содержит конфигурации для запуска тестов например:
@@ -249,6 +249,6 @@ Assertions (проверки), которые вызывают поиск по D
 
 Более подробная информация доступна в Wiki (скоро).
 
-Более подробно эти и другие классы описаны в [javadoc]({{ BASE_PATH }}/javadoc.html)
+Более подробно эти и другие классы описаны в [javadoc](http://selenide.org/javadoc.html)
 
 Оставайтесь на связи!

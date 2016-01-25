@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Selenide: лаконичные UI тесты на Java"
+title: "Selenide: лаконичные и стабильные UI тесты на Java"
 tagline:
 ---
 {% include JB/setup %}
@@ -24,11 +24,11 @@ tagline:
 <div class="wrapper-color-content">
 
   <h3>Что такое Selenide?</h3>
-  <h4>Selenide - это обёртка вокруг <a href="http://docs.seleniumhq.org/projects/webdriver/" target="_blank">Selenium WebDriver</a>, дающая следующие преимущества:</h4>
+  <h4>Selenide - это фреймворк для автоматизированго тестирования веб-приложений на основе <a href="http://docs.seleniumhq.org/projects/webdriver/" target="_blank">Selenium WebDriver</a>, дающая следующие преимущества:</h4>
   <div class="highlights">
     <a href="/documentation.html">Изящный API для тестов</a>
     <span>Поддержка Ajax для стабильных тестов</span>
-    <span>Мощные селекторы</span>
+    <span>Многофункциональные селекторы</span>
     <a href="/documentation/page-objects.html">Настоящие Page Objects</a>
     
   </div>
@@ -111,6 +111,6 @@ tagline:
 <a name="thanks"></a>
 <div class="short thanks">
   <h4>Большое спасибо:</h4>
-  <img src="https://www.jetbrains.com/idea/docs/logo_intellij_idea.png">
+  <img src="http://resources.jetbrains.com/assets/media/open-graph/jetbrains_250x250.png">
   <img src="{{BASE_PATH}}/images/yourkit.png" target="_blank" alt="YourKit" style="width: 150px;"/>
 </div>
